@@ -1,0 +1,123 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* body */
+/* header */
+.head{
+    background: #387D80;
+    padding : 20px 0;
+    text-align: center;
+}
+h1{
+    font-size: 36px;
+    color: #FBFF55;
+    font-weight: bolder;
+}
+body{
+    background: #FDF5E8;
+}
+.container{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 32px;
+}
+.flex{
+    display: flex;
+}
+.flexc{
+    display: flex;
+    flex-direction: column;
+}
+.align-center{
+    align-items: center;
+}
+.space-between{
+    justify-content: space-between;
+}
+.justify-center{
+    justify-content: center;
+}
+.flex30{
+    width: 30%
+}
+.wrap{
+    flex-wrap: wrap;
+}
+.book-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+    background: white;
+    margin: 20px 0;
+}
+.btn{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 20px;
+    background:#387D80;
+    border-radius: 5px;
+    color: white;
+    border: none;
+}
+.image-frame{
+    width: 50%;
+    height: 100%;
+}
+.list-div{
+    margin: 20px 0;
+}
+.heading2{
+    padding: 30px 0px 0;
+    font-size: 20px;
+}
+.cite{
+    padding: 10px 0;
+    font-size: small;
+    color: gray;
+}
